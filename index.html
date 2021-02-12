@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grasslite</title>
+    <link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/grasslite.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/text-animation.css">
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" ></script>
+    <script src="https://script.hotjar.com/modules.47c8b2ab63e7e626e930.js" ></script>
+    <script src="https://uploads-ssl.webflow.com/5ff4c66f5aeda6133e67564f/js/webflow.1273f156b.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <a>
+            <img src="img/logo_svg_white.svg" alt="logo" class="logo_img" />
+            <img src="img/logo_name.svg" alt="ColoredByte" class="logo_name" />
+        </a>
+        <div class="hamburger-container" onclick="openNav()"><div class="line line1"></div><div class="line line2"></div><div class="line line3"></div></div>
+        <!-- <span style="font-size:30px;cursor:pointer; color:#fff" onclick="openNav()">&#9776; open</span> -->
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">work</a>
+            <a href="#">team</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+          </div>
+
+        <nav>
+            <ul>
+                <li><a>work</a></li>
+                <li><a>team</a></li>
+                <li><a>about</a></li>
+                <li><a>contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-header">
+        <div class="header-wrapper">
+            <h1 class="main_header-h1">
+                <!-- <span class="green text-anim">Shopify</span>
+                <br />
+                <span class="title-subspan text-anim">design & development</span> -->
+
+                <div class='console-container'>
+                    <span id='text'></span>
+                    <div class='console-underscore' id='console'>&#65372;</div>
+                </div>
+                <span class="title-subspan text-anim">design & development</span> 
+            </h1>
+            <p class="main_header-p">
+                If you are trying to start a business or grow your existing one you need a tech partner. Let us be your
+                CTO in a box and focus on doing what you do best: grow your business.
+            </p>
+            <a class="button attract-hover">get started now</a>
+        </div>
+        <div class="header-image-container"><img src="img/5ff4ec453f9d9150c94e811f_cloud.png" loading="lazy" data-w-id="924ee859-fbb2-be16-27e6-2b5cbb3c1a8b" alt="cloud" class="cloud cloud-2" style="will-change: transform; transform: translate3d(-234px, -32px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img src="img/5ff4ec453f9d9150c94e811f_cloud.png" loading="lazy" data-w-id="e1c47d22-8ec4-4ba3-1b89-ccedac7c1517" alt="cloud" class="cloud" style="will-change: transform; transform: translate3d(-48px, -40px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img src="img/5ff4ec45cdd3381bd2448c8d_popup.png" loading="lazy" data-w-id="7e91f9b2-edc7-7d28-e0cf-f5819933f6ab" alt="popup" class="notification" style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img src="img/5ff4f020e4f382dd8e9c0623_add.png" loading="lazy" data-w-id="fa503802-8673-c2a1-9678-07fd614fab8d" alt="add" class="plus" style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img src="img/5ff4ec453cacc129bd1027fd_hi.png" loading="lazy" data-w-id="1d4a479c-e6cf-1764-9f1a-3e0f7eb0d928" alt="development banner" class="hi" style="will-change: transform; transform: translate3d(0px, 32px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img src="img/5ff4ec455c10c3c65331cd62_video.png" loading="lazy" data-w-id="9175687d-5541-0da7-bacb-09c63f2a1d1a" alt="video" class="youtube" style="will-change: transform; transform: translate3d(0px, -8px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img src="img/5ff4ec46b924b9ad644395cc_graph.png" loading="lazy" data-w-id="e42d6297-0461-fddf-1469-25b3b1da8051" alt="graph" class="graph" style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img src="img/5ff76edb1369b449b6cd418e_front.png" loading="lazy" sizes="(max-width: 991px) 100vw, 900px" srcset="img/5ff76edb1369b449b6cd418e_front-p-500.png 500w, img/5ff76edb1369b449b6cd418e_front-p-800.png 800w, img/5ff76edb1369b449b6cd418e_front-p-1080.png 1080w, img/5ff76edb1369b449b6cd418e_front.png 1598w" alt="front of table with tools for ecommerce" class="base"><img src="img/5ff4ec45ca03e1b4f35c5b7d_mouse.png" loading="lazy" data-w-id="8f7b72d4-e3d1-682d-c944-5b27c595ff62" alt="mouse" class="cursor" style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+    </div>
+    <img src="img/60218178b646672c8d0b91a1_Intersect.svg" class="intersection" />
+
+    <section>
+        <div class="container">
+            <h3 class="top-title">we bring <span class="pink-text">design</span> and <span
+                    class="purple-text">tech</span>,</h3>
+            <h1 class="title">What do <span class="you">You</span> want to build?</h1>
+        </div>
+    </section>
+
+    <!-- ecommerce section-->
+    <section>
+        <div class="container service-section w-row customer_section">
+            <div class="service-container w-col ecommerce_text"><img
+                    src="img/5ff5f45ab3c07254232b74fe_box2.png"
+                    loading="lazy" data-w-id="1103b3b7-3920-e9b9-3189-51af02a9cf89" alt="product box" class="box2"
+                    style="will-change: transform; transform: translate3d(-42.7983px, -65.8806px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0.01048deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                    src="img/5ff5f5ed1337a76a31c4b42e_cart.png"
+                    loading="lazy" data-w-id="6468bddb-ca23-bc8f-a979-e3cf5970916c" alt="shopping cart" class="cart"
+                    style="will-change: transform; transform: translate3d(-50.4924px, -46.6454px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                    src="img/5ff5f45a6b9a816f2a14e375_box.png"
+                    loading="lazy" data-w-id="55c06b4f-8d9f-4d85-8b80-6fb79fb699b4" alt="product box" class="box1"
+                    style="will-change: transform; transform: translate3d(-23.0822px, -38.9513px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-16.8308deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+            </div>
+            <div class="service-container service-container-text margin-top w-col ecommerce_img">
+                <h2 class="service-header light-green">Shopify <br>Ecommerces</h2><a href="/contact"
+                    class="service-btn attract-hover" style="transform: translate(0px, 0px); z-index: 1;">let's do
+                    it</a>
+            </div>
+        </div>
+    </section>
+    <!-- ecommerce section-->
+
+    <!-- ecommerce section-->
+    <section>
+        <div class="container service-section w-row">
+            <div class="service-container service-container-text margin-top w-col custom_text">
+                <h2 class="service-header yellow">custom <br>websites</h2>
+                <a href="/contact" class="service-btn blue attract-hover"
+                    style="transform: translate(0px, 0px); z-index: 1;">let's do it</a>
+            </div>
+            <div class="service-container w-col custom_img">
+                <img src="img/5ff6009103c2691bfca46658_left-bracket.png"
+                    loading="lazy" data-w-id="d9738988-4eb2-10fe-7919-4e33e26198a6" alt="left curly brace"
+                    class="left-bracket"
+                    style="will-change: transform; transform: translate3d(0px, 32.913px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                <img src="img/5ff60091ce02ebecfd06099b_computer.png"
+                    loading="lazy" data-w-id="3b181881-962a-3b8d-ce38-a32fa4bb8b0f" alt="computer" class="computer"
+                    style="will-change: transform; transform: translate3d(36.5803px, -28.0616px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(15.2342deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                <img src="img/5ff600901315f27632f00f74_right-bracket.png"
+                    loading="lazy" data-w-id="eccb3e21-5c4b-06f4-ec3e-51e49b0b0457" alt="right curly brace"
+                    class="right-bracket"
+                    style="will-change: transform; transform: translate3d(40px, -26.8623px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+
+            </div>
+        </div>
+    </section>
+    <!-- ecommerce section-->
+
+    <!-- user exp section -->
+
+    <section>
+        <div class="container service-section w-row">
+        <div class="service-container w-col w-col-5"><img
+                src="img/5ff6047f57e098860a41173e_UI.png"
+                loading="lazy" data-w-id="7272c307-c246-8675-caa6-7ce28ee9894f" alt="phone" class="cellphone"
+                style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-35.9073deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                src="img/5ff6047fce02eb2df7061ad3_brushes.png"
+                loading="lazy" data-w-id="7272c307-c246-8675-caa6-7ce28ee98950" alt="blue pencil case" class="brushes"
+                style="will-change: transform; transform: translate3d(89.7141px, 30.0711px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                src="img/5ff6047f2938aea63c52b9e1_pencils.png"
+                loading="lazy" data-w-id="7272c307-c246-8675-caa6-7ce28ee98951" alt="pencil case" class="pencils"
+                style="will-change: transform; transform: translate3d(0px, 15.4973px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        </div>
+        <div class="service-container service-container-text w-col w-col-7">
+            <h2 class="service-header magenta">User <br>Experiences</h2><a href="/contact"
+                class="service-btn magenta attract-hover" style="transform: translate(0px, 0px);">let's do it</a>
+        </div>
+    </div>
+    </section>
+    <!-- end of user exp section -->
+
+    <!-- new brands section -->
+    <section>
+        <div class="container service-section final-service-section brands_section">
+        <div class="service-container service-container-text w-col brand_text ">
+            <h2 class="service-header violet">new<br>brands<br></h2><a href="/contact"
+                class="service-btn violet attract-hover" style="transform: translate(0px, 0px);">let's do it</a>
+        </div>
+        <div class="service-container w-col brand_img"><img
+                src="img/5ff608e4acc2d1c19b62b38f_twitter.png"
+                loading="lazy" data-w-id="f40c0c54-1a22-3c95-883b-a733e33fd457" alt="tweeter icon" class="twitter"
+                style="will-change: transform; transform: translate3d(82.5111px, 54.7586px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                src="img/5ff608e435c2d7445dc0057a_target.png"
+                loading="lazy" data-w-id="629b4d2f-111d-f8ab-8650-247412c292a0" alt="target" class="target"
+                style="will-change: transform; transform: translate3d(2.98772px, 21.4988px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                src="img/5ff608e4ee73cec58fb02e36_insta.png"
+                loading="lazy" data-w-id="27048569-b683-e439-d7cc-abda432d045d" alt="instagram icon" class="insta"
+                style="will-change: transform; transform: translate3d(10.9702px, 3.46528px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(10.1559deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                src="img/5ff608e4f6005063478ed69e_tiktok.png"
+                loading="lazy" data-w-id="ae3416d9-9ce1-4fbc-36ea-32a983438e6a" alt="tiktok icon" class="tiktok"
+                style="will-change: transform; transform: translate3d(2.4752px, 43.0061px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-5.35144deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                src="img/5ff608e4432adc9346b9ddb0_facebook.png"
+                loading="lazy" data-w-id="ec6d5a14-7b67-3324-f730-43f0cbb31e93" alt="facebook icon" class="facebook"
+                style="will-change: transform; transform: translate3d(-21.4988px, -33.5026px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        </div>
+    </div>
+    </section>
+    <!-- end of new brands section -->
+
+    <!-- project section -->
+    <section>
+        <div class="callout-container">
+            <div id="snowfall" class="particle-container"></div>
+            <h3 class="top-title">not sure what you need?</h3>
+            <h2 class="callout">get <span class="text-span-2">inspired</span></h2>
+            <a href="#" class="button attract-hover">see our work</a>
+        </div>
+    </section>
+    <!-- end of project section -->
+
+    <section>
+    <div class="team-section">
+        <h3 class="top-title centered no-margin">we are a creative bunch,</h3>
+        <h3 class="top-title centered no-margin bold">from all over the <span class="violet bold">universe</span>.</h3>
+        <div class="team-images"><img
+                src="img/600074a3bafcac041437b3b4_back.png"
+                loading="lazy" data-w-id="7974af94-af78-0482-2c72-3ac6ebd789c9"
+                sizes="(max-width: 479px) 92vw, (max-width: 1017px) 100vw, 1017px"
+                srcset="img/600074a3bafcac041437b3b4_back-p-500.png 500w, img/600074a3bafcac041437b3b4_back-p-800.png 800w, img/600074a3bafcac041437b3b4_back.png 1017w"
+                alt="back row of people" class="end"
+                style="will-change: transform; transform: translate3d(0px, -33.8px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                src="img/600074a3f9b70c529e63424e_middle.png"
+                loading="lazy" data-w-id="0bdffa54-1eb9-d00b-c9c5-36cd3622fd46"
+                sizes="(max-width: 479px) 92vw, (max-width: 899px) 100vw, 899px"
+                srcset="img/600074a3f9b70c529e63424e_middle-p-500.png 500w, img/600074a3f9b70c529e63424e_middle-p-800.png 800w, img/600074a3f9b70c529e63424e_middle.png 899w"
+                alt="middle row of people
+        " class="middle"
+                style="will-change: transform; transform: translate3d(0px, 6.76px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img
+                src="img/600074a393775b476a9da290_front-row.png"
+                loading="lazy" data-w-id="61bd1e3f-39df-f862-e2f7-425b420cdc22"
+                sizes="(max-width: 479px) 92vw, (max-width: 642px) 100vw, 642px"
+                srcset="img/600074a393775b476a9da290_front-row-p-500.png 500w, img/600074a393775b476a9da290_front-row.png 642w"
+                alt="front row of people
+        " class="front-row"
+                style="will-change: transform; transform: translate3d(0px, 47.32px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        </div><a href="/meet-the-team" class="button btn-violet attract-hover"
+            style="transform: translate(0px, 0px);">meet the team</a>
+    </div>
+</section>
+
+    <!-- contact us section -->
+    <section>
+        <div class="callout-container">
+            <div id="circleRotate" class="particle-container"></div>
+            <h3 class="top-title start">ready to <span class="violet">start?</span></h3>
+            <h2 class="callout">lets <span class="text-span-2">talk!</span></h2>
+            <a href="#" class="button attract-hover">get started</a>
+        </div>
+    </section>
+    <!-- end of contact us section -->
+
+    <footer>
+        <img src="img/6021825ed4698e39155023dc_Intersect2.svg"
+            loading="lazy" alt="" class="intersection intersection-footer">
+        <div id="footer" class="footer">
+            <div class="w-container">
+                <div class="footer-flex-container">
+                    <a href="" class="footer-logo-link w-inline-block">
+                        <img src="img/5ff4d06c7075f042d44d03c7_logo_svg.svg"
+                            alt="purple logo" class="footer-image">
+                    </a>
+                    <div class="align-right">
+                        <h2 class="footer-heading">Navigation</h2>
+                        <ul role="list" class="w-list-unstyled">
+                            <li><a href="/projects" class="footer-link">Work</a></li>
+                            <li><a href="/meet-the-team" class="footer-link">Team</a></li>
+                            <li><a href="/our-story" class="footer-link">About</a></li>
+                            <li><a href="/contact" class="footer-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">Copyright © 2020 COLORED&nbsp;BYTE, LLC. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
